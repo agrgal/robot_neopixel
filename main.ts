@@ -19,6 +19,7 @@ input.onLogoEvent(TouchButtonEvent.Pressed, function () {
     maqueen.motorRun(maqueen.Motors.M2, maqueen.Dir.CW, 0)
     basic.pause(2000)
     strip.clear()
+    strip.show()
     maqueen.writeLED(maqueen.LED.LEDRight, maqueen.LEDswitch.turnOff)
     maqueen.motorStop(maqueen.Motors.All)
 })
